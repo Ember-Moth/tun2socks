@@ -47,7 +47,7 @@ jobs:
 
       - name: 安装 gomobile
         run: |
-          go mod init github.com/your/project
+          go mod init github.com/Ember-Moth/tun2socks
           go mod tidy
           go get golang.org/x/mobile@v0.0.0-20230922142353-e2f452493d57
           go install golang.org/x/mobile/cmd/gomobile@v0.0.0-20230922142353-e2f452493d57
