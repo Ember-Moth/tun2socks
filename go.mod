@@ -1,4 +1,4 @@
-module github.com/xjasonlyu/tun2socks/v2
+module github.com/xjasonlyu/tun2socks
 
 go 1.23.1
 
@@ -34,5 +34,3 @@ require (
     golang.org/x/net v0.34.0 // indirect
     golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
 )
-
-replace github.com/xjasonlyu/tun2socks/v2 => github.com/xjasonlyu/tun2socks v2.5.2
