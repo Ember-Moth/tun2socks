@@ -35,4 +35,4 @@ require (
     golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
 )
 
-replace github.com/xjasonlyu/tun2socks/v2 => github.com/Ember-Moth/tun2socks @latest
+replace github.com/xjasonlyu/tun2socks/v2 => github.com/Ember-Moth/tun2socks
