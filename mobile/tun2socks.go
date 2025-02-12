@@ -74,9 +74,7 @@ func (t *Tun2socks) Start() error {
     }
 
     engine.Insert(key)
-    if err := engine.Start(); err != nil {
-        return fmt.Errorf("failed to start engine: %v", err)
-    }
+    engine.Start()
 
     t.started = true
     return nil
