@@ -7,7 +7,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/xjasonlyu/tun2socks/buffer"
+	"github.com/Ember-Moth/tun2socks/buffer"
 )
 
 const (
