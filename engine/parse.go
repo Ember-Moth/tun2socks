@@ -11,11 +11,11 @@ import (
 
 	"github.com/gorilla/schema"
 
-	"github.com/xjasonlyu/tun2socks/core/device"
-	"github.com/xjasonlyu/tun2socks/core/device/fdbased"
-	"github.com/xjasonlyu/tun2socks/core/device/tun"
-	"github.com/xjasonlyu/tun2socks/proxy"
-	"github.com/xjasonlyu/tun2socks/proxy/proto"
+	"github.com/Ember-Moth/tun2socks/core/device"
+	"github.com/Ember-Moth/tun2socks/core/device/fdbased"
+	"github.com/Ember-Moth/tun2socks/core/device/tun"
+	"github.com/Ember-Moth/tun2socks/proxy"
+	"github.com/Ember-Moth/tun2socks/proxy/proto"
 )
 
 func parseRestAPI(s string) (*url.URL, error) {
