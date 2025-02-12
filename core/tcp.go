@@ -11,8 +11,8 @@ import (
 	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
 	"gvisor.dev/gvisor/pkg/waiter"
 
-	"github.com/xjasonlyu/tun2socks/core/adapter"
-	"github.com/xjasonlyu/tun2socks/core/option"
+	"github.com/Ember-Moth/tun2socks/core/adapter"
+	"github.com/Ember-Moth/tun2socks/core/option"
 )
 
 const (
