@@ -13,14 +13,14 @@ import (
 	"gvisor.dev/gvisor/pkg/tcpip"
 	"gvisor.dev/gvisor/pkg/tcpip/stack"
 
-	"github.com/xjasonlyu/tun2socks/core"
-	"github.com/xjasonlyu/tun2socks/core/device"
-	"github.com/xjasonlyu/tun2socks/core/option"
-	"github.com/xjasonlyu/tun2socks/dialer"
-	"github.com/xjasonlyu/tun2socks/log"
-	"github.com/xjasonlyu/tun2socks/proxy"
-	"github.com/xjasonlyu/tun2socks/restapi"
-	"github.com/xjasonlyu/tun2socks/tunnel"
+	"github.com/Ember-Moth/tun2socks/core"
+	"github.com/Ember-Moth/tun2socks/core/device"
+	"github.com/Ember-Moth/tun2socks/core/option"
+	"github.com/Ember-Moth/tun2socks/dialer"
+	"github.com/Ember-Moth/tun2socks/log"
+	"github.com/Ember-Moth/tun2socks/proxy"
+	"github.com/Ember-Moth/tun2socks/restapi"
+	"github.com/Ember-Moth/tun2socks/tunnel"
 )
 
 var (
