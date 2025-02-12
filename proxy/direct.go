@@ -4,9 +4,9 @@ import (
 	"context"
 	"net"
 
-	"github.com/xjasonlyu/tun2socks/dialer"
-	M "github.com/xjasonlyu/tun2socks/metadata"
-	"github.com/xjasonlyu/tun2socks/proxy/proto"
+	"github.com/Ember-Moth/tun2socks/dialer"
+	M "github.com/Ember-Moth/tun2socks/metadata"
+	"github.com/Ember-Moth/tun2socks/proxy/proto"
 )
 
 var _ Proxy = (*Direct)(nil)
