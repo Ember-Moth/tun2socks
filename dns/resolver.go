@@ -3,7 +3,7 @@ package dns
 import (
 	"net"
 
-	"github.com/xjasonlyu/tun2socks/dialer"
+	"github.com/Ember-Moth/tun2socks/dialer"
 )
 
 func init() {
