@@ -3,7 +3,7 @@ package tun2socks
 import (
     "fmt"
     "time"
-    "github.com/xjasonlyu/tun2socks/engine"
+    "github.com/Ember-Moth/tun2socks/engine"
 )
 
 // Tun2socks Android绑定类
