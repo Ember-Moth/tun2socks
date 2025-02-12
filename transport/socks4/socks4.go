@@ -9,7 +9,7 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/xjasonlyu/tun2socks/transport/internal/bufferpool"
+	"github.com/Ember-Moth/tun2socks/transport/internal/bufferpool"
 )
 
 const Version = 0x04
