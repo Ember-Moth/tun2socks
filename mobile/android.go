@@ -3,5 +3,5 @@ package mobile
 import "github.com/xjasonlyu/tun2socks/log"
 
 func init() {
-    log.SetLogger(log.Must(log.NewLeveled("info")))
+    log.SetLogger(log.Must(log.NewLeveled("zapcore.InfoLevel")))
 }
