@@ -3,7 +3,7 @@ package mobile
 import (
     "fmt"
     "time"
-    "github.com/xjasonlyu/tun2socks/v2/engine"
+    "github.com/xjasonlyu/tun2socks/engine"
 )
 
 // Tun2socks Android绑定类
