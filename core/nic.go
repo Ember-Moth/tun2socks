@@ -9,7 +9,7 @@ import (
 	"gvisor.dev/gvisor/pkg/tcpip/network/ipv6"
 	"gvisor.dev/gvisor/pkg/tcpip/stack"
 
-	"github.com/xjasonlyu/tun2socks/core/option"
+	"github.com/Ember-Moth/tun2socks/core/option"
 )
 
 const (
