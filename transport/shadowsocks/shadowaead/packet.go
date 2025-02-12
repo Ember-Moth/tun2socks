@@ -6,7 +6,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/xjasonlyu/tun2socks/buffer"
+	"github.com/Ember-Moth/tun2socks/buffer"
 )
 
 // ErrShortPacket means that the packet is too short for a valid encrypted packet.
