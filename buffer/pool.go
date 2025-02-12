@@ -2,7 +2,7 @@
 package buffer
 
 import (
-	"github.com/xjasonlyu/tun2socks/buffer/allocator"
+	"github.com/Ember-Moth/tun2socks/buffer/allocator"
 )
 
 const (
