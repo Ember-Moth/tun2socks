@@ -3,8 +3,8 @@ package tunnel
 import (
 	"sync"
 
-	"github.com/xjasonlyu/tun2socks/proxy"
-	"github.com/xjasonlyu/tun2socks/tunnel/statistic"
+	"github.com/Ember-Moth/tun2socks/proxy"
+	"github.com/Ember-Moth/tun2socks/tunnel/statistic"
 )
 
 var (
