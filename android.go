@@ -2,7 +2,7 @@ package tun2socks
 
 import (
     "go.uber.org/zap/zapcore"
-    "github.com/xjasonlyu/tun2socks/log"
+    "github.com/Ember-Moth/tun2socks/log"
 )
 
 func init() {
