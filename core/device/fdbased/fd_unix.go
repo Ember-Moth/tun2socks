@@ -9,7 +9,7 @@ import (
 	"golang.org/x/sys/unix"
 	"gvisor.dev/gvisor/pkg/tcpip/stack"
 
-	"github.com/xjasonlyu/tun2socks/core/device"
+	"github.com/Ember-Moth/tun2socks/core/device"
 )
 
 const defaultMTU = 1500
