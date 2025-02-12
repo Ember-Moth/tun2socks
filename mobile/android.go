@@ -1,7 +1,10 @@
 package mobile
 
-import "github.com/xjasonlyu/tun2socks/log"
+import (
+    "go.uber.org/zap/zapcore"
+    "github.com/xjasonlyu/tun2socks/log"
+)
 
 func init() {
-    log.SetLogger(log.Must(log.NewLeveled(zapcore.Level(zapcore.InfoLevel))))
+    log.SetLogger(log.Must(log.NewLeveled(zapcore.InfoLevel)))
 }
