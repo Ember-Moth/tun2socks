@@ -7,9 +7,9 @@ import (
 	"golang.org/x/sys/windows"
 	wun "golang.zx2c4.com/wireguard/tun"
 
-	"github.com/xjasonlyu/tun2socks/core/device"
-	"github.com/xjasonlyu/tun2socks/core/device/tun"
-	"github.com/xjasonlyu/tun2socks/internal/version"
+	"github.com/Ember-Moth/tun2socks/core/device"
+	"github.com/Ember-Moth/tun2socks/core/device/tun"
+	"github.com/Ember-Moth/tun2socks/internal/version"
 )
 
 func init() {
