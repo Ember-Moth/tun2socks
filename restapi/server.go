@@ -13,8 +13,8 @@ import (
 	"github.com/go-chi/render"
 	"github.com/gorilla/websocket"
 
-	V "github.com/xjasonlyu/tun2socks/internal/version"
-	"github.com/xjasonlyu/tun2socks/tunnel/statistic"
+	V "github.com/Ember-Moth/tun2socks/internal/version"
+	"github.com/Ember-Moth/tun2socks/tunnel/statistic"
 )
 
 var (
