@@ -11,7 +11,7 @@ import (
 	"github.com/go-chi/render"
 	"github.com/gorilla/websocket"
 
-	"github.com/xjasonlyu/tun2socks/tunnel/statistic"
+	"github.com/Ember-Moth/tun2socks/tunnel/statistic"
 )
 
 const defaultInterval = 1000
