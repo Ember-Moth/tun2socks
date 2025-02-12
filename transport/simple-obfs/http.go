@@ -10,7 +10,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/xjasonlyu/tun2socks/buffer"
+	"github.com/Ember-Moth/tun2socks/buffer"
 )
 
 // HTTPObfs is shadowsocks http simple-obfs implementation
