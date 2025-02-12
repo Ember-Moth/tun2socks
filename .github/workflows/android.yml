@@ -55,6 +55,7 @@ jobs:
 
       - name: 构建 AAR
         run: |
+          mkdir -p build
           gomobile bind -v \
             -target=${{ inputs.target }} \
             -androidapi=${{ inputs.androidapi }} \
@@ -63,6 +64,12 @@ jobs:
             -o build/tun2socks.aar \
             -tags="android" \
             ./mobile
+      - name: 检查 AAR 文件是否存在
+        run: |
+          if [ ! -f build/tun2socks.aar ]; then
+            echo "AAR 文件未生成"
+            exit 1
+          fi
 
       - name: 上传构建产物
         uses: actions/upload-artifact@v4
