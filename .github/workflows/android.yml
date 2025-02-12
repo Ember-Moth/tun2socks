@@ -63,7 +63,7 @@ jobs:
             -trimpath \
             -o build/tun2socks.aar \
             -tags="android" \
-            ./mobile
+            .
       - name: 检查 AAR 文件是否存在
         run: |
           if [ ! -f build/tun2socks.aar ]; then
@@ -74,6 +74,6 @@ jobs:
       - name: 上传构建产物
         uses: actions/upload-artifact@v4
         with:
-          name: tun2socks-aar
-          path: build/tun2socks.aar
+          name: tun2socks-artifacts
+          path: build
           retention-days: 7
