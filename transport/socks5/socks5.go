@@ -11,7 +11,7 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/xjasonlyu/tun2socks/transport/internal/bufferpool"
+	"github.com/Ember-Moth/tun2socks/transport/internal/bufferpool"
 )
 
 // AuthMethod is the authentication method as defined in RFC 1928 section 3.
